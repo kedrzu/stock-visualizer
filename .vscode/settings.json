@@ -1,0 +1,57 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules/**": true,
+        "**/tsconfig.tsbuildinfo": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "dist/**": true,
+        "yarn.lock": true
+    },
+    "files.associations": {
+        "*.ejs.ts": "typescript"
+    },
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+    "npm.packageManager": "yarn",
+    "npm.scriptExplorerAction": "run",
+    "typescript.format.enable": false,
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned",
+            "wrap_attributes_indent_size": 40
+        }
+    },
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.options.useTabs": false,
+    "eslint.lintTask.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.validate": ["javascript", "typescript"],
+    "eslint.alwaysShowStatus": true
+}
